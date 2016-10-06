@@ -1,3 +1,10 @@
+
+# Created by https://www.gitignore.io/api/c,cmake
+
+### C ###
+# Prerequisites
+*.d
+
 # Object files
 *.o
 *.ko
@@ -31,3 +38,13 @@
 # Debug files
 *.dSYM/
 *.su
+
+
+### CMake ###
+CMakeCache.txt
+CMakeFiles
+CMakeScripts
+Makefile
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
